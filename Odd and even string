@@ -1,0 +1,16 @@
+s=input() 
+l=list(s) 
+even=[] 
+odd=[] 
+for i in l:  
+    if int(i)%2==0: 
+        even.append(i)
+    else: 
+        odd.append(i)
+for i in odd:  
+   print(i,end='') 
+for i in even: 
+    print(i,end='') 
+Output: 
+1234567 
+1357246
